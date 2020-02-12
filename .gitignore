@@ -1,0 +1,11 @@
+# WAD files
+*.wad
+*.WAD
+
+# PK3 files
+*.pk3
+*.PK3
+
+# PK7 files
+*.pk7
+*.PK7
