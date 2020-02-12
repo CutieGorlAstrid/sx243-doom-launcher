@@ -40,6 +40,17 @@ namespace DoomLauncherSx243
                     pwadSelect.Items.Add(file.Name);
                 }
             }
+            FileInfo[] PK3s = dinfo.GetFiles("*.pk3");
+            foreach (FileInfo file in PK3s)
+            {
+                pwadSelect.Items.Add(file.Name);
+            }
+
+            FileInfo[] PK7s = dinfo.GetFiles("*.pk7");
+            foreach (FileInfo file in PK7s)
+            {
+                pwadSelect.Items.Add(file.Name);
+            }
             return 0;
         }
 
@@ -59,7 +70,7 @@ namespace DoomLauncherSx243
         private void chooseSPButton_Click(object sender, EventArgs e)
         {
             chooseSourcePort.ShowDialog();
-            sourcePortLabel.Text = "Source port: ";
+            sourcePortLabel.Text = "Source port: "+chooseSourcePort.FileName;
         }
 
         private void helpButton_Click(object sender, EventArgs e)

@@ -43,7 +43,7 @@
             // 
             this.iwadSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.iwadSelect.FormattingEnabled = true;
-            this.iwadSelect.Location = new System.Drawing.Point(54, 9);
+            this.iwadSelect.Location = new System.Drawing.Point(12, 25);
             this.iwadSelect.Name = "iwadSelect";
             this.iwadSelect.Size = new System.Drawing.Size(183, 21);
             this.iwadSelect.TabIndex = 0;
@@ -51,7 +51,7 @@
             // iwadLabel
             // 
             this.iwadLabel.AutoSize = true;
-            this.iwadLabel.Location = new System.Drawing.Point(12, 12);
+            this.iwadLabel.Location = new System.Drawing.Point(12, 9);
             this.iwadLabel.Name = "iwadLabel";
             this.iwadLabel.Size = new System.Drawing.Size(36, 13);
             this.iwadLabel.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // launchButton
             // 
-            this.launchButton.Location = new System.Drawing.Point(232, 314);
+            this.launchButton.Location = new System.Drawing.Point(9, 316);
             this.launchButton.Name = "launchButton";
             this.launchButton.Size = new System.Drawing.Size(75, 23);
             this.launchButton.TabIndex = 4;
@@ -69,18 +69,20 @@
             // 
             // pwadSelect
             // 
+            this.pwadSelect.Dock = System.Windows.Forms.DockStyle.Right;
             this.pwadSelect.FormattingEnabled = true;
-            this.pwadSelect.Location = new System.Drawing.Point(13, 85);
+            this.pwadSelect.Location = new System.Drawing.Point(332, 0);
             this.pwadSelect.Name = "pwadSelect";
             this.pwadSelect.ScrollAlwaysVisible = true;
             this.pwadSelect.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.pwadSelect.Size = new System.Drawing.Size(292, 225);
+            this.pwadSelect.Size = new System.Drawing.Size(268, 349);
             this.pwadSelect.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 68);
+            this.label2.Location = new System.Drawing.Point(281, 5);
+            this.label2.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 6;
@@ -88,16 +90,15 @@
             // 
             // sourcePortLabel
             // 
-            this.sourcePortLabel.AutoSize = true;
-            this.sourcePortLabel.Location = new System.Drawing.Point(130, 41);
+            this.sourcePortLabel.Location = new System.Drawing.Point(12, 80);
             this.sourcePortLabel.Name = "sourcePortLabel";
-            this.sourcePortLabel.Size = new System.Drawing.Size(68, 13);
+            this.sourcePortLabel.Size = new System.Drawing.Size(314, 58);
             this.sourcePortLabel.TabIndex = 3;
-            this.sourcePortLabel.Text = "Source port: ";
+            this.sourcePortLabel.Text = "Source port: None";
             // 
             // chooseSPButton
             // 
-            this.chooseSPButton.Location = new System.Drawing.Point(13, 36);
+            this.chooseSPButton.Location = new System.Drawing.Point(12, 52);
             this.chooseSPButton.Name = "chooseSPButton";
             this.chooseSPButton.Size = new System.Drawing.Size(111, 23);
             this.chooseSPButton.TabIndex = 7;
@@ -111,11 +112,11 @@
             // 
             // helpButton
             // 
-            this.helpButton.Location = new System.Drawing.Point(12, 314);
+            this.helpButton.Location = new System.Drawing.Point(92, 316);
             this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(164, 23);
+            this.helpButton.Size = new System.Drawing.Size(146, 23);
             this.helpButton.TabIndex = 8;
-            this.helpButton.Text = "I\'m not seeing all my PWADs...";
+            this.helpButton.Text = "I\'m not seeing all my files...";
             this.helpButton.UseVisualStyleBackColor = true;
             this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
             // 
@@ -123,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 349);
+            this.ClientSize = new System.Drawing.Size(600, 349);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.chooseSPButton);
             this.Controls.Add(this.label2);
