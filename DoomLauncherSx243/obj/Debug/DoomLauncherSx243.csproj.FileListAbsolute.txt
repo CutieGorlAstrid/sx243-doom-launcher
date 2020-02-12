@@ -1,0 +1,9 @@
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\bin\Debug\DoomLauncherSx243.exe.config
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\bin\Debug\DoomLauncherSx243.exe
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\bin\Debug\DoomLauncherSx243.pdb
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.csprojResolveAssemblyReference.cache
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.MainWindow.resources
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.Properties.Resources.resources
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.csproj.GenerateResource.Cache
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.exe
+c:\users\kaz18001436\documents\visual studio 2017\Projects\DoomLauncherSx243\DoomLauncherSx243\obj\Debug\DoomLauncherSx243.pdb
